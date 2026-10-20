@@ -1,4 +1,4 @@
-# Mohamed Ali Bouzazi | Portfolio (HTML + CSS only)
+# Mohamed Ali Bouzazi | Portfolio 
 
 Personal portfolio of **Mohamed Ali Bouzazi**, embedded & mobile systems / IoT student.
 This version is built with **plain HTML and CSS only: no JavaScript, no framework, no build step.**
