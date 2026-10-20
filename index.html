@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Ali Bouzazi | Embedded & Mobile Systems</title>
+  <meta name="description" content="Portfolio of Mohamed Ali Bouzazi, embedded and mobile systems student. Raspberry Pi, ESP32, Android, Python, C/C++, computer vision." />
+  <meta property="og:title" content="Mohamed Ali Bouzazi | Embedded & Mobile Systems" />
+  <meta property="og:description" content="Embedded and mobile systems student building smart, resource-constrained systems." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <input type="checkbox" id="lang-toggle" class="sr" aria-hidden="true" tabindex="-1" />
+  <input type="checkbox" id="menu-toggle" class="sr" aria-hidden="true" tabindex="-1" />
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">&lt;MAB<span>/&gt;</span></a>
+      <nav class="links" id="links">
+        <a href="#about"><span class="en">About</span><span class="fr">À propos</span></a>
+        <a href="#skills"><span class="en">Skills</span><span class="fr">Compétences</span></a>
+        <a href="#experience"><span class="en">Experience</span><span class="fr">Expérience</span></a>
+        <a href="#projects"><span class="en">Projects</span><span class="fr">Projets</span></a>
+        <a href="#education"><span class="en">Education</span><span class="fr">Formation</span></a>
+        <a href="#contact"><span class="en">Contact</span><span class="fr">Contact</span></a>
+      </nav>
+      <div class="nav-actions">
+        <label for="lang-toggle" class="pill" role="button" aria-label="Switch language"><span class="en">FR</span><span class="fr">EN</span></label>
+        <label for="menu-toggle" class="burger" role="button" aria-label="Menu"><span></span><span></span><span></span></label>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-text reveal">
+        <p class="mono eyebrow"><span class="en">Hi, I'm</span><span class="fr">Bonjour, je suis</span></p>
+        <h1>Mohamed Ali <span class="grad">Bouzazi</span></h1>
+        <h2><span class="en">Embedded &amp; Mobile Systems · IoT</span><span class="fr">Systèmes embarqués & mobiles · IoT</span></h2>
+        <p class="lead"><span class="en">I build smart, resource-constrained systems at the edge of hardware and software. Currently looking for an end-of-studies (PFE) internship.</span><span class="fr">Je conçois des systèmes intelligents à ressources limitées, à l'interface entre le hardware et le software. À la recherche d'un stage de PFE.</span></p>
+        <div class="cta">
+          <a class="btn primary" href="#projects"><span class="en">View my projects</span><span class="fr">Voir mes projets</span></a>
+          <a class="btn" href="#contact"><span class="en">Get in touch</span><span class="fr">Me contacter</span></a>
+        </div>
+        <div class="badges">
+          <span class="dot"></span>
+          <span><span class="en">Open to internship opportunities</span><span class="fr">Disponible pour un stage</span></span>
+        </div>
+      </div>
+      <div class="hero-card reveal" aria-hidden="true">
+        <div class="term-bar"><i></i><i></i><i></i><b>~/mohamed-ali</b></div>
+        <pre class="term"><span class="c">// whoami</span>
+<span class="k">const</span> me = {
+  role: <span class="s">"Embedded &amp; Mobile"</span>,
+  boards: [<span class="s">"Raspberry Pi"</span>, <span class="s">"ESP32"</span>, <span class="s">"Arduino"</span>],
+  code: [<span class="s">"C"</span>, <span class="s">"C++"</span>, <span class="s">"Python"</span>],
+  vision: <span class="s">"YOLO"</span>,
+  languages: <span class="s">"AR · EN · FR · ZH"</span>,
+  seeking: <span class="s">"internship"</span>
+};</pre>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="container section reveal">
+      <h3 class="title"><span class="mono">01.</span> <em><span class="en">About me</span><span class="fr">À propos de moi</span></em></h3>
+      <div class="about-grid">
+        <p><span class="en">Third-year undergraduate student specialising in embedded systems and IoT, actively looking for an end-of-studies (PFE) internship. Motivated and rigorous, I want to deepen my hands-on expertise in designing resource-constrained systems. Passionate about the hardware/software interface, I'm comfortable programming in C and Python, working with real-time operating systems and integrating sensors. My goal is to take part in innovative projects that strengthen my embedded development skills.</span><span class="fr">Étudiant en 3ème année de licence nationale, spécialisé en systèmes embarqués et IoT, je recherche activement une période de stage de PFE. Motivé et rigoureux, je souhaite approfondir mon expertise pratique dans la conception de systèmes à ressources limitées. Passionné par l'interface hardware/software, je maîtrise la programmation (C, Python), les systèmes d'exploitation temps réel et l'intégration de capteurs. Mon objectif est de m'investir dans des projets innovants pour consolider mes compétences en développement embarqué.</span></p>
+        <ul class="facts">
+          <li><b>3</b><span><span class="en">rd-year bachelor's</span><span class="fr">ème année de licence</span></span></li>
+          <li><b>2</b><span><span class="en">internships completed</span><span class="fr">stages réalisés</span></span></li>
+          <li><b>4</b><span><span class="en">languages spoken</span><span class="fr">langues parlées</span></span></li>
+          <li><b>3</b><span><span class="en">clubs &amp; communities</span><span class="fr">clubs & communautés</span></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container section reveal">
+      <h3 class="title"><span class="mono">02.</span> <em><span class="en">Skills</span><span class="fr">Compétences</span></em></h3>
+      <div class="cards three">
+        <article class="card">
+          <h4><span class="en">Embedded &amp; IoT</span><span class="fr">Embarqué & IoT</span></h4>
+          <div class="chips"><span>Raspberry Pi</span><span>Arduino</span><span>ESP32</span><span>Node-RED</span><span>Embedded Linux</span><span>IoT</span><span>MQTT</span><span>LoRa</span><span>RFID</span></div>
+        </article>
+        <article class="card">
+          <h4><span class="en">Programming &amp; tools</span><span class="fr">Programmation & outils</span></h4>
+          <div class="chips"><span>C</span><span>C++</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MATLAB</span><span>Android Studio</span><span>VS Code</span><span>PlatformIO</span><span>Git</span></div>
+        </article>
+        <article class="card">
+          <h4><span class="en">Computer vision</span><span class="fr">Vision par ordinateur</span></h4>
+          <div class="chips"><span>YOLOv3</span><span><span class="en">Face recognition</span><span class="fr">Reconnaissance faciale</span></span><span><span class="en">Edge optimisation</span><span class="fr">Optimisation embarquée</span></span></div>
+        </article>
+      </div>
+      <h4 class="sub"><span class="en">Soft skills</span><span class="fr">Soft skills</span></h4>
+      <div class="chips soft">
+        <span><span class="en">Analytical problem solving</span><span class="fr">Résolution de problèmes analytique</span></span>
+        <span><span class="en">Teamwork</span><span class="fr">Travail en équipe</span></span>
+        <span><span class="en">Adaptability</span><span class="fr">Adaptabilité</span></span>
+        <span><span class="en">Fast learner</span><span class="fr">Apprentissage rapide</span></span>
+        <span><span class="en">Rigour &amp; method</span><span class="fr">Rigueur et méthode</span></span>
+        <span><span class="en">Time management</span><span class="fr">Gestion du temps</span></span>
+        <span><span class="en">Project management</span><span class="fr">Gestion de projets</span></span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container section reveal">
+      <h3 class="title"><span class="mono">03.</span> <em><span class="en">Experience</span><span class="fr">Expérience professionnelle</span></em></h3>
+      <div class="timeline">
+        <article class="item">
+          <div class="item-head">
+            <div>
+              <h4><span class="en">Advanced internship</span><span class="fr">Stage de perfectionnement</span></h4>
+              <p class="org">Cothings · X Bardo</p>
+            </div>
+            <span class="date mono"><span class="en">Jan 11 – Feb 4, 2025</span><span class="fr">11 jan. – 4 fév. 2025</span></span>
+          </div>
+          <ul>
+            <li><span class="en">Designed and built a smart access system on a Raspberry Pi 4 and its camera, running Linux, combining YOLO face detection with face recognition to control a door lock.</span><span class="fr">Conception et réalisation d'un système d'accès intelligent basé sur Raspberry Pi 4 et sa caméra, sous Linux, combinant détection de visages avec YOLO et reconnaissance faciale pour contrôler l'ouverture d'une porte.</span></li>
+            <li><span class="en">Set up a database of authorised identities and optimised the detection model for embedded hardware.</span><span class="fr">Mise en place d'une base de données d'identités autorisées et optimisation du modèle de détection pour l'embarqué.</span></li>
+            <li><span class="en">Drove a servo actuator through the GPIO pins so the door opens only for recognised people, with access logging.</span><span class="fr">Pilotage d'un actionneur (servo) via les GPIO pour n'ouvrir la porte qu'aux personnes reconnues, avec journalisation des accès.</span></li>
+          </ul>
+        </article>
+        <article class="item">
+          <div class="item-head">
+            <div>
+              <h4><span class="en">Introductory internship</span><span class="fr">Stage d'initiation</span></h4>
+              <p class="org">24IT · El Menzah 1</p>
+            </div>
+            <span class="date mono"><span class="en">Jan 11 – Feb 4, 2024</span><span class="fr">11 jan. – 4 fév. 2024</span></span>
+          </div>
+          <ul>
+            <li><span class="en">Developed a responsive e-commerce application with HTML, CSS and JavaScript.</span><span class="fr">Développement d'une application e-commerce responsive en HTML, CSS et JavaScript.</span></li>
+            <li><span class="en">Worked in a development team on the design, integration and testing of the application.</span><span class="fr">Collaboration au sein d'une équipe de développement pour la conception, l'intégration et les tests de l'application.</span></li>
+            <li><span class="en">Helped improve the user experience (UX) on mobile and desktop.</span><span class="fr">Contribution à l'amélioration de l'expérience utilisateur (UX) sur mobile et desktop.</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container section reveal">
+      <h3 class="title"><span class="mono">04.</span> <em><span class="en">Projects</span><span class="fr">Projets</span></em></h3>
+      <div class="cards three">
+        <article class="card project">
+          <div class="tag">C++ · ESP32 · RFID</div>
+          <h4>Smart Vehicle Seating</h4>
+          <p><span class="en">Embedded system for passenger authentication and seat monitoring using ESP32 and RFID.</span><span class="fr">Système embarqué d'authentification des passagers et de suivi des sièges avec ESP32 et RFID.</span></p>
+          <a href="https://github.com/Mohamed-Ali-Bouzazi/Smart-Vehicle-Seating" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="card project">
+          <div class="tag">Raspberry Pi · YOLO · Python</div>
+          <h4><span class="en">Face-recognition door access</span><span class="fr">Contrôle d'accès par reconnaissance faciale</span></h4>
+          <p><span class="en">Cothings internship project: on-device face detection and recognition on a Raspberry Pi 4 to control a door.</span><span class="fr">Projet de stage chez Cothings : détection et reconnaissance de visages sur Raspberry Pi 4 pour piloter l'ouverture d'une porte.</span></p>
+          <span class="muted"><span class="en">Internship project</span><span class="fr">Projet de stage</span></span>
+        </article>
+        <article class="card project">
+          <div class="tag">Python</div>
+          <h4>Smart Calculator</h4>
+          <p><span class="en">A smart calculator built with Python.</span><span class="fr">Une calculatrice intelligente développée en Python.</span></p>
+          <a href="https://github.com/Mohamed-Ali-Bouzazi/Smart_Calculator" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="card project">
+          <div class="tag">Python</div>
+          <h4>Python Tetris</h4>
+          <p><span class="en">The classic Tetris game recreated in Python.</span><span class="fr">Le jeu Tetris classique recréé en Python.</span></p>
+          <a href="https://github.com/Mohamed-Ali-Bouzazi/Python-tetris" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="card project">
+          <div class="tag">HTML · CSS</div>
+          <h4>Password Generator</h4>
+          <p><span class="en">A clean, styled web tool for generating strong passwords.</span><span class="fr">Un outil web stylisé pour générer des mots de passe robustes.</span></p>
+          <a href="https://github.com/Mohamed-Ali-Bouzazi/PasswordGenerator" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+        <article class="card project">
+          <div class="tag">HTML</div>
+          <h4>HumHum Ya Helou</h4>
+          <p><span class="en">A front-end web project.</span><span class="fr">Un projet front-end web.</span></p>
+          <a href="https://github.com/Mohamed-Ali-Bouzazi/HumHum-Ya-Helou" target="_blank" rel="noopener">GitHub →</a>
+        </article>
+      </div>
+      <p class="more"><a href="https://github.com/Mohamed-Ali-Bouzazi?tab=repositories" target="_blank" rel="noopener"><span class="en">See all repositories on GitHub →</span><span class="fr">Voir tous les dépôts sur GitHub →</span></a></p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="container section reveal">
+      <h3 class="title"><span class="mono">05.</span> <em><span class="en">Education &amp; more</span><span class="fr">Formation & plus</span></em></h3>
+      <div class="cards three">
+        <article class="card">
+          <h4><span class="en">Education</span><span class="fr">Formation</span></h4>
+          <p class="strong"><span class="en">National bachelor's degree (3rd year) · Embedded systems &amp; IoT</span><span class="fr">Licence nationale (3ème année) · Systèmes embarqués & IoT</span></p>
+          <p class="strong"><span class="en">Baccalaureate in Economics &amp; Management · 2022 – 2023</span><span class="fr">Baccalauréat Économie et Gestion · 2022 – 2023</span></p>
+        </article>
+        <article class="card">
+          <h4><span class="en">Certifications</span><span class="fr">Certifications</span></h4>
+          <div class="chips"><span><span class="en">Python Programming</span><span class="fr">Programmation Python</span></span><span><span class="en">Web Development</span><span class="fr">Développement Web</span></span><span><span class="en">React JS Framework</span><span class="fr">Framework React JS</span></span></div>
+          <h4 class="sub"><span class="en">Activities</span><span class="fr">Activités</span></h4>
+          <div class="chips"><span><span class="en">IEEE student branch member</span><span class="fr">Membre IEEE (chapitre étudiant)</span></span><span><span class="en">SECURINETS club member</span><span class="fr">Membre du club SECURINETS</span></span><span><span class="en">CAVALO chess club member</span><span class="fr">Membre du club d'échecs CAVALO</span></span></div>
+        </article>
+        <article class="card">
+          <h4><span class="en">Languages</span><span class="fr">Langues</span></h4>
+          <ul class="langs">
+            <li><span><span class="en">Arabic</span><span class="fr">Arabe</span></span><b><span class="en">Native</span><span class="fr">Langue maternelle</span></b></li>
+            <li><span><span class="en">English</span><span class="fr">Anglais</span></span><b><span class="en">Expert</span><span class="fr">Expert</span></b></li>
+            <li><span><span class="en">French</span><span class="fr">Français</span></span><b><span class="en">Intermediate</span><span class="fr">Intermédiaire</span></b></li>
+            <li><span><span class="en">Chinese</span><span class="fr">Chinois</span></span><b><span class="en">Intermediate</span><span class="fr">Intermédiaire</span></b></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container section contact reveal">
+      <p class="mono eyebrow">06. <span><span class="en">Contact</span><span class="fr">Contact</span></span></p>
+      <h3 class="big"><span class="en">Let's work together</span><span class="fr">Travaillons ensemble</span></h3>
+      <p class="lead"><span class="en">I'm looking for an embedded systems / IoT internship. My inbox is always open.</span><span class="fr">Je cherche un stage de perfectionnement en systèmes embarqués et IoT. Mon inbox est toujours ouverte.</span></p>
+      <div class="cta center">
+        <a class="btn primary" href="mailto:bouzazimohamedali31@gmail.com">bouzazimohamedali31@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/mohamed-ali-bouzazi-b42576317/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/Mohamed-Ali-Bouzazi" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Mohamed Ali Bouzazi · <span><span class="en">Resume</span><span class="fr">CV</span></span></p>
+    </div>
+  </footer>
+</body>
+</html>
