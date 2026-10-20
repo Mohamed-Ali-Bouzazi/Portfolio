@@ -3,7 +3,7 @@
 Personal portfolio of **Mohamed Ali Bouzazi**, embedded & mobile systems / IoT student.
 This version is built with **plain HTML and CSS only: no JavaScript, no framework, no build step.**
 
-🌐 Live site (once deployed): https://mohamed-ali-bouzazi.github.io
+🌐 Live site: [https://mohamed-ali-bouzazi.github.io](https://mohamed-ali-bouzazi.github.io/Portfolio/)
 
 ---
 
