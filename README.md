@@ -21,7 +21,7 @@ This version is built with **plain HTML and CSS only: no JavaScript, no framewor
 ```
 .
 ├── index.html   # all page content (English + French)
-├── style.css    # all styling, theming, responsiveness and the no-JS toggles
+├── style.css    # all styling, theming, responsiveness 
 └── README.md
 ```
 
